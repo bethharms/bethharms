@@ -1,5 +1,5 @@
-#ifndef Bureaucat_H
-#define Bureaucat_H
+#ifndef Bureaucrat_H
+#define Bureaucrat_H
 
 using namespace std;
 
@@ -7,11 +7,11 @@ using namespace std;
 #include <string>
 #include "Computer.h"
 
-class Bureaucat : public Computer
+class Bureaucrat : public Computer
 {
     public:
 
-    Bureaucat(); // default constructor
+    Bureaucrat(); // default constructor
     virtual void makeMove();  // causes move choice to be made
 };
 #endif 

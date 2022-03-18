@@ -1,10 +1,10 @@
-#include "Bureaucat.h"
+#include "Bureaucrat.h"
 
-Bureaucat::Bureaucat()
+Bureaucrat::Bureaucrat()
 {
 }
 
-void Bureaucat::makeMove()
+void Bureaucrat::makeMove()
 {
  move = 'P';   
 }

@@ -1,10 +1,10 @@
-#include "FistfulODollars.h"
+#include "FistfullODollars.h"
 
-FistfulODollars::FistfulODollars()
+FistfullODollars::FistfullODollars()
 {
 }
 
-void FistfulODollars::makeMove()
+void FistfullODollars::makeMove()
 {
  if (MoveCount = 0)
  {
