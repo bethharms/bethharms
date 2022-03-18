@@ -6,12 +6,12 @@ FistfullODollars::FistfullODollars()
 
 void FistfullODollars::makeMove()
 {
- if (MoveCount = 0)
+ if (MoveCount == 0)
  {
      move = 'R';
      MoveCount++;
  }
- else if (MoveCount = 1)
+ else if (MoveCount == 1)
  {
      move = 'P';
      MoveCount++;

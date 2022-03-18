@@ -11,6 +11,7 @@ Player* Tournament::run(array<Player*, 8> competitors)
     for (int i = 0 ; i < 4 ; i++)
     {
         Referee ref;
+        
         for (int j = 0 ; j < 5 ; j++)
         {
             if (ref.refGame(competitors[2*i], competitors[2*i+1]) != 'L' )

@@ -6,12 +6,12 @@ PaperDoll::PaperDoll()
 
 void PaperDoll::makeMove()
 {
- if (MoveCount = 0)
+ if (MoveCount == 0)
  {
      move = 'P';
      MoveCount++;
  }
- else if (MoveCount = 1)
+ else if (MoveCount == 1)
  {
      move = 'S';
      MoveCount++;
