@@ -53,7 +53,7 @@ Player* Tournament::run(array<Player*, 8> competitors)
         }
         gameScore = 0;
     }
-
+    
     for (int m = 0 ; m < 5 ; m++)
     {
         if (ref.refGame(thirdRound[0], thirdRound[1]) != 'L' )
