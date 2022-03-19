@@ -6,5 +6,6 @@ Bureaucrat::Bureaucrat()
 
 void Bureaucrat::makeMove()
 {
- move = 'P';   
+ move = 'P';
 }
+

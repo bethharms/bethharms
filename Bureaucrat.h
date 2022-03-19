@@ -14,4 +14,4 @@ class Bureaucrat : public Computer
     Bureaucrat(); // default constructor
     virtual void makeMove();  // causes move choice to be made
 };
-#endif 
+#endif

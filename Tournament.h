@@ -20,6 +20,7 @@ class Tournament
 
     Player* secondRound[4];
     Player* thirdRound[2];
+    
 };
 
 #endif
